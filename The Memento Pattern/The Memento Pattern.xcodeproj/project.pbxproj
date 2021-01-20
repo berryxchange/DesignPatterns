@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC386CE322E2F4E100831D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC386CE222E2F4E100831D83 /* AppDelegate.swift */; };
+		AC386CE522E2F4E100831D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC386CE422E2F4E100831D83 /* ViewController.swift */; };
+		AC386CE822E2F4E100831D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC386CE622E2F4E100831D83 /* Main.storyboard */; };
+		AC386CEA22E2F4E300831D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC386CE922E2F4E300831D83 /* Assets.xcassets */; };
+		AC386CED22E2F4E300831D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC386CEB22E2F4E300831D83 /* LaunchScreen.storyboard */; };
+		AC386CF822E2F57000831D83 /* The Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC386CF722E2F57000831D83 /* The Memento.swift */; };
+		AC386CFB22E2FB7E00831D83 /* MementoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC386CFA22E2FB7E00831D83 /* MementoProtocols.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC386CDF22E2F4E100831D83 /* The Memento Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Memento Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC386CE222E2F4E100831D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC386CE422E2F4E100831D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC386CE722E2F4E100831D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC386CE922E2F4E300831D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC386CEC22E2F4E300831D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC386CEE22E2F4E300831D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC386CF722E2F57000831D83 /* The Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Memento.swift"; sourceTree = "<group>"; };
+		AC386CFA22E2FB7E00831D83 /* MementoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoProtocols.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC386CDC22E2F4E100831D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC386CD622E2F4E100831D83 = {
+			isa = PBXGroup;
+			children = (
+				AC386CE122E2F4E100831D83 /* The Memento Pattern */,
+				AC386CE022E2F4E100831D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC386CE022E2F4E100831D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC386CDF22E2F4E100831D83 /* The Memento Pattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC386CE122E2F4E100831D83 /* The Memento Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				AC386CF922E2FB6700831D83 /* Protocols */,
+				AC386CF622E2F4FB00831D83 /* Controller */,
+				AC386CF522E2F4F300831D83 /* View */,
+				AC386CF422E2F4EE00831D83 /* Model */,
+				AC386CE222E2F4E100831D83 /* AppDelegate.swift */,
+				AC386CE422E2F4E100831D83 /* ViewController.swift */,
+				AC386CE622E2F4E100831D83 /* Main.storyboard */,
+				AC386CE922E2F4E300831D83 /* Assets.xcassets */,
+				AC386CEB22E2F4E300831D83 /* LaunchScreen.storyboard */,
+				AC386CEE22E2F4E300831D83 /* Info.plist */,
+			);
+			path = "The Memento Pattern";
+			sourceTree = "<group>";
+		};
+		AC386CF422E2F4EE00831D83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC386CF722E2F57000831D83 /* The Memento.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC386CF522E2F4F300831D83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC386CF622E2F4FB00831D83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC386CF922E2FB6700831D83 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AC386CFA22E2FB7E00831D83 /* MementoProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC386CDE22E2F4E100831D83 /* The Memento Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC386CF122E2F4E300831D83 /* Build configuration list for PBXNativeTarget "The Memento Pattern" */;
+			buildPhases = (
+				AC386CDB22E2F4E100831D83 /* Sources */,
+				AC386CDC22E2F4E100831D83 /* Frameworks */,
+				AC386CDD22E2F4E100831D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Memento Pattern";
+			productName = "The Memento Pattern";
+			productReference = AC386CDF22E2F4E100831D83 /* The Memento Pattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC386CD722E2F4E100831D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Quinton Quaye";
+				TargetAttributes = {
+					AC386CDE22E2F4E100831D83 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AC386CDA22E2F4E100831D83 /* Build configuration list for PBXProject "The Memento Pattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC386CD622E2F4E100831D83;
+			productRefGroup = AC386CE022E2F4E100831D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC386CDE22E2F4E100831D83 /* The Memento Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC386CDD22E2F4E100831D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC386CED22E2F4E300831D83 /* LaunchScreen.storyboard in Resources */,
+				AC386CEA22E2F4E300831D83 /* Assets.xcassets in Resources */,
+				AC386CE822E2F4E100831D83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC386CDB22E2F4E100831D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC386CE522E2F4E100831D83 /* ViewController.swift in Sources */,
+				AC386CF822E2F57000831D83 /* The Memento.swift in Sources */,
+				AC386CE322E2F4E100831D83 /* AppDelegate.swift in Sources */,
+				AC386CFB22E2FB7E00831D83 /* MementoProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC386CE622E2F4E100831D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC386CE722E2F4E100831D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC386CEB22E2F4E300831D83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC386CEC22E2F4E300831D83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC386CEF22E2F4E300831D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC386CF022E2F4E300831D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC386CF222E2F4E300831D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = "The Memento Pattern/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "theQ.The-Memento-Pattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC386CF322E2F4E300831D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = "The Memento Pattern/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "theQ.The-Memento-Pattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC386CDA22E2F4E100831D83 /* Build configuration list for PBXProject "The Memento Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC386CEF22E2F4E300831D83 /* Debug */,
+				AC386CF022E2F4E300831D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC386CF122E2F4E300831D83 /* Build configuration list for PBXNativeTarget "The Memento Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC386CF222E2F4E300831D83 /* Debug */,
+				AC386CF322E2F4E300831D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC386CD722E2F4E100831D83 /* Project object */;
+}
